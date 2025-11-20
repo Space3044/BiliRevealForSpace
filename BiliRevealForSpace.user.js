@@ -11,7 +11,7 @@
 // @grant        GM_getValue
 // @grant        GM.xmlHttpRequest
 // @grant        unsafeWindow
-// @require      https://update.greasyfork.org/scripts/400945/1055319/libBilibiliToken.js
+// @require      https://cdn.jsdelivr.net/gh/lzghzr/TampermonkeyJS@master/libBilibiliToken/libBilibiliToken.js
 // @require      https://fastly.jsdelivr.net/npm/gm-extra@0.0.1
 // @run-at       document-idle
 // @license      MIT
@@ -179,9 +179,9 @@ const injectLocation = (
     const locationEl = document.createElement('div')
 
     Object.assign(locationEl.style, {
-        color: '#fff',
+        color: '#3A2A4D',
         fontSize: '10px',
-        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        background: 'linear-gradient(135deg, #A7D4FF 0%, #C7B8F6 50%, #F2C7E9 100%)',
         borderRadius: '4px',
         padding: '.4em',
         marginLeft: '.4em',
