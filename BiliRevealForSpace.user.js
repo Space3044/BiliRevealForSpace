@@ -259,9 +259,9 @@ const main = async () => {
         isFreshSpace
             ? {}
             : {
-                  padding: '0 5px',
-                  marginLeft: '5px',
-              }
+                padding: '0 5px',
+                marginLeft: '5px',
+            }
     )
 }
 
